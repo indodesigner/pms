@@ -1,0 +1,66 @@
+.inputfieldpadding{
+    padding : 5px;
+    text-align : left;
+}
+.text-left{
+    padding : 5px;
+    font-weight : 10px;
+    font-size: 14px;
+}
+
+.formcontent{
+    background-color: rgb(241, 238, 238);
+    padding : 5px;
+    padding-bottom : 20px;
+    margin-left: 1px; 
+    margin-right: 1px; 
+}
+
+.roomavailability{
+    margin: 20px;
+    border : 1px solid rgb(241, 238, 238);
+}
+
+.tabhead{
+    background-color: rgb(241, 238, 238);
+}
+.btnstyle{
+    float : left;
+    margin : 5px;
+}
+
+
+.padcolumn{
+    background-color: white;
+    opacity: 0.9; 
+    padding: 20px;
+    border-radius: 5px;
+    margin: 2px;
+    height: 100%;
+}
+
+.theadpadding{
+    background-color: rgb(241, 238, 238);
+    padding: 20px;
+}
+
+.thstyle{
+    width: 125px;
+}
+
+.appendsize{
+    width: 40px;
+}
+
+.apptexboxsize{
+    width: 40px;
+}
+
+.prependsize{
+    width: 40px; 
+}
+
+.reseform{
+       border-radius : 4px;
+       margin-top: 15px !important;
+   }

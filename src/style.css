@@ -1,0 +1,26 @@
+.section{
+   background-size: 100% 100%;
+   padding : 15px;
+   background-color : rgb(245, 247, 250) ;
+}
+
+
+.container-fluid{
+    border-radius:  3px;
+    background-color: white ;
+    padding : 0px !important;
+}
+
+.header {
+    background-color: white ;
+    padding : 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color : rgb(78, 60, 92);
+    border-bottom : 1px solid lightgray;
+    text-align : left;
+    opacity : 1;
+    margin-bottom: 0px;
+}
+
+
