@@ -24,7 +24,7 @@ function App() {
                 <Route exact path="/reservation" component={Reservation}/>
                 <Route exact path="/reception" component={Reception}/>
             </Switch>
-            {/* <Footer/> */}
+            <Footer/>
         </Router>
     </div>
   );
