@@ -1,11 +1,59 @@
-.navbar{
-    background-color: black;
+
+:root {
+    --grey: #6b6b6b;
+    --light-grey: #e4e4e4;
+    --white: #ffffff;
+  }
+
+.container{
+    margin: 0;
 }
 
+.grey{
+    color: var(--grey);
+}
+.red{
+    color: rgb(204, 12, 12);
+}
+.hover-cursor{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--white) !important;
+    box-shadow:  0 1px 1px 0 rgba(219, 219, 219, 0.4);
+}
+
+.logo-cover{
+    height : 50px;
+    width : 50px;
+    border-radius: 5em;
+    box-shadow:  2px 2px 10px 0 rgba(179, 179, 179, 0.5);
+
+}
 .logo{
     background : url("../../assets/niko.png");
     height : 50px;
     width : 50px;
+}
+
+
+.profile-btn{
+    padding: 0em  1em;
+    border-radius: .5em;
+    align-self: center;
+    box-shadow:  2px 2px 10px 0 rgba(223, 223, 223, 0.5);
+    border: .01em solid var(--light-grey);
+    transition: .2s ease;
+}
+.profile-btn:hover{
+    transform: scale(1.1);
+    padding: 0em  1em;
+    border-radius: .5em;
+    align-self: center;
+    box-shadow:  2px 2px 10px 0 rgba(223, 223, 223, 0.5);
+    border: .01em solid var(--light-grey);
 }
 
 
@@ -24,19 +72,20 @@
 
 .userdropdown{
     position : absolute;
-    height: 160px;
+    /* height: 100px; */
     width: 300px;
-    border-radius : 5px;
+    border-radius:1em !important;
     top : 60px;
     right: 25px;
     z-index: 100;
 }
 
 .uslink{
-    color: rgb(218, 206, 206);
+    color: rgb(199, 199, 199);
     font-size: 14px;
     font-weight: bold;
 }
+
 .uslinklog{
     color: white;
     font-size: 18px;
@@ -55,12 +104,15 @@
 
 .logout{
     color: white;
-    height : 50%;
+    height : 30%;
     width : 100%;
-    background-color: rgb(164, 240, 94);
+    background-color: rgb(54, 54, 54);
     box-sizing: border-box;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius:0 0 1em 1em;
+}
+.logout:hover{
+    color: white;
+    background-color: rgb(216, 37, 31);
 }
 
 .iconsize{
@@ -68,19 +120,35 @@
 }
 
 .iconsizelog{
-    font-size : 30px;
+    font-size : 18px;
 }
 
 .padding{
     padding : 10px;
 }
 
+.nlink{
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+}
 .nlink:hover{
-    background-color: red;
+    /* border-bottom: solid 1em rgb(173, 173, 173); */
     opacity: 1 ;
+    color: rgb(11, 93, 121);
+    background-color: rgb(238, 238, 238);
+    border-radius: .5em;
 }
 
 .marginzero{
     margin: 0px;
     padding : 0px;
+}
+
+
+div[role='menu'] {
+    visibility: hidden;
+}
+
+div[role='menu'].visible {
+    visibility: visible;
 }
