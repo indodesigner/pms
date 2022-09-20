@@ -63,14 +63,11 @@ class Navigationbar extends React.Component {
                                 </Nav>
                               
                             </Navbar.Collapse>
-                         
-                    </Navbar>
-                    <button className="profile-btn bg-white btn" onClick={() => this.setState({ dropdownindex : 1})}>Suresh Somanathan
+                            <button className="profile-btn bg-white btn" onClick={() => this.setState({ dropdownindex : 1})}>Suresh Somanathan
                                 <i class="bi bi-caret-down-fill"></i></button>
                                  {this.dropdown()}
-                 
-
-
+                    </Navbar>
+                  
                     </div>
                 </div>
            
